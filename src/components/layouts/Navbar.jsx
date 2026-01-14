@@ -8,19 +8,19 @@ const Navbar = () => {
   const nav = (
     <>
       <li>
-        <NavLink href={"/"}>Home</NavLink>
+        <NavLink href="/">Home</NavLink>
       </li>
       <li>
-        <NavLink href={"/products"}>Products</NavLink>
+        <NavLink href="/products">Products</NavLink>
       </li>
       <li>
-        <NavLink href={"/orders"}>My Ordes</NavLink>
+        <NavLink href="/orders">My Ordes</NavLink>
       </li>
       <li>
-        <NavLink href={"/contacts"}>Contacts</NavLink>
+        <NavLink href="/contacts">Contacts</NavLink>
       </li>
       <li>
-        <NavLink href={"/about"}>About US</NavLink>
+        <NavLink href="/about">About US</NavLink>
       </li>
     </>
   );
