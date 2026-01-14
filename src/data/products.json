@@ -1,0 +1,674 @@
+
+         [
+             {
+                "id": 41,
+                "name": "Bombay Chips",
+                "price": 10.00,
+                "image": "https://i.ibb.co/jvHnjryd/chips.webp",
+                "description": "Potato Crackers. Crispy, Tasty & Spicy Bombay Chips.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.9
+            },
+            {
+                "id": 42,
+                "name": "Mango Juice",
+                "price": 20.00,
+                "image": "https://i.ibb.co/ycgvtN67/pran-mango-juice-1ltr.jpg",
+                "description": "Non preservative pure Mango Juice.",
+                "category": "juice",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.9
+            },
+            {
+                "id": 43,
+                "name": "Matador Ballpen",
+                "price": 5.00,
+                "image": "https://i.ibb.co/v6RZT25Q/download.png",
+                "description": "Fluied writing fantastic colourful Ballpen.",
+                "category": "pen",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 44,
+                "name": "Dry Cake",
+                "price": 10.00,
+                "image": "https://i.ibb.co/6JbKc41D/drycake.jpg",
+                "description": "Soft and fluffy cake with a rich chocolate flavor.",
+                "category": "cake",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 45,
+                "name": "Family pack Noodles",
+                "price": 140.00,
+                "image": "https://i.ibb.co/fdNLYVmV/0706711-mr-noodles-12-pcs-family-pack-masala-62gm-x-12pcs.webp",
+                "description": "Delicious instant noodles with a savory flavor.",
+                "category": "noodles",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 46,
+                "name": "Stick Noodles",
+                "price": 20.00,
+                "image": "https://i.ibb.co/p6mZp7Tq/fresh-stick-noodles-egg-masala-120-gm.jpg",
+                "description": "Delicious instant noodles with a savory flavor.",
+                "category": "noodles",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 47,
+                "name": "Noodles Mini Pack",
+                "price": 10.00,
+                "image": "https://i.ibb.co/Y4M5vKWP/mininoodles.jpg",
+                "description": "Delicious instant noodles with a savory flavor.",
+                "category": "noodles",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 48,
+                "name": "Biscuits",
+                "price": 49.99,
+                "image": "https://i.ibb.co/v6RZT25Q/download.png",
+                "description": "Crispy and crunchy biscuits with a hint of sweetness.",
+                "category": "biscuits",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 49,
+                "name": "Vanilla Cake",
+                "price": 30.00,
+                "image": "https://i.ibb.co/7tPM05v5/all-time-family-cake-ghee-cake-edited-png.webp",
+                "description": "Soft and fluffy cake with a rich vanilla flavor.",
+                "category": "cake",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 50,
+                "name": "Gel Pen",
+                "price": 30.00,
+                "image": "https://i.ibb.co/1JtqCLQQ/gel-pen.jpg",
+                "description": "Smooth writing gel pen with vibrant ink colors.",
+                "category": "pen",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 51,
+                "name": "200ml Juice",
+                "price": 20.00,
+                "image": "https://i.ibb.co/tPm0tm6n/images.jpg",
+                "description": "Refreshing fruit juice in a convenient 200ml pack.",
+                "category": "juice",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 52,
+                "name": "1 litre Juice",
+                "price": 80.00,
+                "image": "https://i.ibb.co/SDs0RLkc/1ltr.jpg",
+                "description": "Refreshing fruit juice in a convenient 1 litre pack.",
+                "category": "juice",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 53,
+                "name": "Alooz Chips",
+                "price": 20.00,
+                "image": "https://i.ibb.co/Sh9LwkL/alooz.jpg",
+                "description": "Crispy and crunchy potato chips with a hint of spice.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 54,
+                "name": "Mr. Twist Chips",
+                "price": 20.00,
+                "image": "https://i.ibb.co/XfQLkVxy/download-3.jpg",
+                "description": "Crispy and crunchy potato chips with a twist of flavor.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 55,
+                "name": "Mighty Chips",
+                "price": 10.00,
+                "image": "https://i.ibb.co/skHmDcP/download-2.jpg",
+                "description": "Crispy and crunchy potato chips with a mighty flavor.",
+                "category": "chips",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 56,
+                "name": "Speed Can",
+                "price": 50.00,
+                "image": "https://i.ibb.co/Y7k0dRg6/speedcan.jpg",
+                "description": "Refreshing energy drink in a convenient can.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 57,
+                "name": "Speed",
+                "price": 30.00,
+                "image": "https://i.ibb.co/W4dz96NB/speed.jpg",
+                "description": "Refreshing energy drink in a convenient bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 58,
+                "name": "Mojo",
+                "price": 20.00,
+                "image": "https://i.ibb.co/Xkbhd5ZG/mojo.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 59,
+                "name": "Mojo 2L",
+                "price": 20.00,
+                "image": "https://i.ibb.co/t915T9f/mojo2litr.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 60,
+                "name": "Clemon",
+                "price": 20.00,
+                "image": "https://i.ibb.co/dybJWL5/clemon.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 61,
+                "name": "Clemon 2L",
+                "price": 100.00,
+                "image": "https://i.ibb.co/7t5WjmVD/clemon-2ltr.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 62,
+                "name": "Clemon 1L",
+                "price": 60.00,
+                "image": "https://i.ibb.co/XZtLbjbw/clemon1ltr.jpg",
+                "description": "Refreshing energy drink with a unique flavor.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 63,
+                "name": "MUM Fresh Water",
+                "price": 15.00,
+                "image": "https://i.ibb.co/pvcfkm1Q/mum.jpg",
+                "description": "Pure and refreshing drinking water in a convenient bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 64,
+                "name": "MUM Fresh Water 1L",
+                "price": 30.00,
+                "image": "https://i.ibb.co/QLz4nVH/mum1l.jpg",
+                "description": "Pure and refreshing drinking water in a convenient 1 litre bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 65,
+                "name": "PRAN Fresh Water 2L",
+                "price": 40.00,
+                "image": "https://i.ibb.co/nxvrr04/pran2l.jpg",
+                "description": "Pure and refreshing drinking water in a convenient 2 litre bottle.",
+                "category": "drinks",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 66,
+                "name": "Center Fruits",
+                "price": 2.99,
+                "image": "https://i.ibb.co/Y7Yk60nc/center-fruits.jpg",
+                "description": "Chewy and fruity candy with a burst of flavor.",
+                "category": "center-fruits",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 67,
+                "name": "Soft Cake",
+                "price": 5.00,
+                "image": "https://i.ibb.co/sJ9mRKrJ/cake.jpg",
+                "description": "Soft and fluffy cake with a rich chocolate flavor.",
+                "category": "cake",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.8
+            },
+            {
+                "id": 1,
+                "name": "Wireless Headphones",
+                "price": 59.99,
+                "image": "https://i.ibb.co/97jxhQT/akhil-yerabati-Q2u-V5-Tkj-Nz8-unsplash-1.jpg",
+                "description": "Experience immersive sound with these comfortable wireless headphones. Featuring noise cancellation and long-lasting battery life.",
+                "category": "electronics",
+                "details": "Bluetooth 5.0, 20-hour battery, Active Noise Cancellation, foldable design, comes with a carrying case.",
+                "rating": 4.5
+            },
+            {
+                "id": 2,
+                "name": "Smartwatch X200",
+                "price": 129.99,
+                "image": "https://i.ibb.co/6cP3QBrg/simon-daoudi-2w-Foa040m8g-unsplash.jpg",
+                "description": "Stay connected and track your fitness with the Smartwatch X200. Waterproof and packed with features.",
+                "category": "electronics",
+                "details": "Heart rate monitor, GPS, sleep tracking, waterproof up to 50m, customizable watch faces, compatible with iOS/Android.",
+                "rating": 4.2
+            },
+            {
+                "id": 3,
+                "name": "Vintage Denim Jacket",
+                "price": 75.00,
+                "image": "https://i.ibb.co/tMMqvzQ8/pexels-tamar-willoughby-346256-951888-1.jpg",
+                "description": "A classic denim jacket with a timeless design. Perfect for any casual outfit.",
+                "category": "apparel",
+                "details": "100% cotton, distressed look, button closure, multiple pockets, unisex design, available in various sizes.",
+                "rating": 4.7
+            },
+            {
+                "id": 4,
+                "name": "Ergonomic Office Chair",
+                "price": 199.99,
+                "image": "https://i.ibb.co/ZzKXspPQ/pexels-fotios-photos-1957478-1.jpg",
+                "description": "Boost your productivity with this ergonomic office chair designed for maximum comfort and support.",
+                "category": "home",
+                "details": "Adjustable lumbar support, breathable mesh back, padded armrests, smooth-rolling casters, 360-degree swivel.",
+                "rating": 4.8
+            },
+            {
+                "id": 5,
+                "name": "Science Fiction Novel",
+                "price": 15.50,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "An enthralling journey through a dystopian future. A must-read for sci-fi enthusiasts.",
+                "category": "books",
+                "details": "Paperback, 320 pages, award-winning author, part of a series, thought-provoking themes.",
+                "rating": 4.6
+            },
+            {
+                "id": 6,
+                "name": "Portable Bluetooth Speaker",
+                "price": 45.00,
+                "image": "https://i.ibb.co/Xq3FH7X/retro-microphone-isolated-color-background-1.jpg",
+                "description": "Compact and powerful, this speaker delivers crystal-clear audio wherever you go.",
+                "category": "electronics",
+                "details": "IPX7 waterproof, 10-hour playtime, built-in microphone for calls, stereo pairing, USB-C charging.",
+                "rating": 4.3
+            },
+            {
+                "id": 7,
+                "name": "Classic Leather Wallet",
+                "price": 35.00,
+                "image": "https://i.ibb.co/6J4nDkPs/30-1.webp",
+                "description": "Handcrafted from genuine leather, this wallet combines style and durability.",
+                "category": "apparel",
+                "details": "Genuine leather, multiple card slots, bill compartment, coin pocket, slim design, RFID blocking.",
+                "rating": 4.5
+            },
+            {
+                "id": 8,
+                "name": "Cookbook: Italian Delights",
+                "price": 22.00,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "Discover authentic Italian recipes passed down through generations.",
+                "category": "books",
+                "details": "Hardcover, 250 pages, over 100 recipes, full-color photos, beginner-friendly, includes vegetarian options.",
+                "rating": 4.9
+            },
+            {
+                "id": 9,
+                "name": "Yoga Mat Pro",
+                "price": 30.00,
+                "image": "https://i.ibb.co/HTb0PJZb/yoga.webp",
+                "description": "Premium non-slip yoga mat for all your fitness needs.",
+                "category": "home",
+                "details": "Eco-friendly TPE material, 6mm thickness, non-slip surface, lightweight, includes carrying strap, easy to clean.",
+                "rating": 4.4
+            },
+            {
+                "id": 10,
+                "name": "Gaming Mouse RGB",
+                "price": 49.99,
+                "image": "https://i.ibb.co/pjQp8tdH/homescreenify-l-MLWtt-URtz0-unsplash-1.jpg",
+                "description": "Precision gaming mouse with customizable RGB lighting and programmable buttons.",
+                "category": "electronics",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.7
+            },
+            {
+                "id": 11,
+                "name": "Wireless Headphones",
+                "price": 59.99,
+                "image": "https://i.ibb.co/97jxhQT/akhil-yerabati-Q2u-V5-Tkj-Nz8-unsplash-1.jpg",
+                "description": "Experience immersive sound with these comfortable wireless headphones. Featuring noise cancellation and long-lasting battery life.",
+                "category": "electronics",
+                "details": "Bluetooth 5.0, 20-hour battery, Active Noise Cancellation, foldable design, comes with a carrying case.",
+                "rating": 4.5
+            },
+            {
+                "id": 12,
+                "name": "Smartwatch X200",
+                "price": 129.99,
+                "image": "https://i.ibb.co/6cP3QBrg/simon-daoudi-2w-Foa040m8g-unsplash.jpg",
+                "description": "Stay connected and track your fitness with the Smartwatch X200. Waterproof and packed with features.",
+                "category": "electronics",
+                "details": "Heart rate monitor, GPS, sleep tracking, waterproof up to 50m, customizable watch faces, compatible with iOS/Android.",
+                "rating": 4.2
+            },
+            {
+                "id": 13,
+                "name": "Vintage Denim Jacket",
+                "price": 75.00,
+                "image": "https://i.ibb.co/tMMqvzQ8/pexels-tamar-willoughby-346256-951888-1.jpg",
+                "description": "A classic denim jacket with a timeless design. Perfect for any casual outfit.",
+                "category": "apparel",
+                "details": "100% cotton, distressed look, button closure, multiple pockets, unisex design, available in various sizes.",
+                "rating": 4.7
+            },
+            {
+                "id": 14,
+                "name": "Ergonomic Office Chair",
+                "price": 199.99,
+                "image": "https://i.ibb.co/ZzKXspPQ/pexels-fotios-photos-1957478-1.jpg",
+                "description": "Boost your productivity with this ergonomic office chair designed for maximum comfort and support.",
+                "category": "home",
+                "details": "Adjustable lumbar support, breathable mesh back, padded armrests, smooth-rolling casters, 360-degree swivel.",
+                "rating": 4.8
+            },
+            {
+                "id": 15,
+                "name": "Science Fiction Novel",
+                "price": 15.50,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "An enthralling journey through a dystopian future. A must-read for sci-fi enthusiasts.",
+                "category": "books",
+                "details": "Paperback, 320 pages, award-winning author, part of a series, thought-provoking themes.",
+                "rating": 4.6
+            },
+            {
+                "id": 16,
+                "name": "Portable Bluetooth Speaker",
+                "price": 45.00,
+                "image": "https://i.ibb.co/Xq3FH7X/retro-microphone-isolated-color-background-1.jpg",
+                "description": "Compact and powerful, this speaker delivers crystal-clear audio wherever you go.",
+                "category": "electronics",
+                "details": "IPX7 waterproof, 10-hour playtime, built-in microphone for calls, stereo pairing, USB-C charging.",
+                "rating": 4.3
+            },
+            {
+                "id": 17,
+                "name": "Classic Leather Wallet",
+                "price": 35.00,
+                "image": "https://i.ibb.co/6J4nDkPs/30-1.webp",
+                "description": "Handcrafted from genuine leather, this wallet combines style and durability.",
+                "category": "apparel",
+                "details": "Genuine leather, multiple card slots, bill compartment, coin pocket, slim design, RFID blocking.",
+                "rating": 4.5
+            },
+            {
+                "id": 18,
+                "name": "Cookbook: Italian Delights",
+                "price": 22.00,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "Discover authentic Italian recipes passed down through generations.",
+                "category": "books",
+                "details": "Hardcover, 250 pages, over 100 recipes, full-color photos, beginner-friendly, includes vegetarian options.",
+                "rating": 4.9
+            },
+            {
+                "id": 19,
+                "name": "Yoga Mat Pro",
+                "price": 30.00,
+                "image": "https://i.ibb.co/HTb0PJZb/yoga.webp",
+                "description": "Premium non-slip yoga mat for all your fitness needs.",
+                "category": "home",
+                "details": "Eco-friendly TPE material, 6mm thickness, non-slip surface, lightweight, includes carrying strap, easy to clean.",
+                "rating": 4.4
+            },
+            {
+                "id": 20,
+                "name": "Gaming Mouse RGB",
+                "price": 49.99,
+                "image": "https://i.ibb.co/pjQp8tdH/homescreenify-l-MLWtt-URtz0-unsplash-1.jpg",
+                "description": "Precision gaming mouse with customizable RGB lighting and programmable buttons.",
+                "category": "electronics",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.7
+            },
+            {
+                "id": 21,
+                "name": "Wireless Headphones",
+                "price": 59.99,
+                "image": "https://i.ibb.co/97jxhQT/akhil-yerabati-Q2u-V5-Tkj-Nz8-unsplash-1.jpg",
+                "description": "Experience immersive sound with these comfortable wireless headphones. Featuring noise cancellation and long-lasting battery life.",
+                "category": "electronics",
+                "details": "Bluetooth 5.0, 20-hour battery, Active Noise Cancellation, foldable design, comes with a carrying case.",
+                "rating": 4.5
+            },
+            {
+                "id": 22,
+                "name": "Smartwatch X200",
+                "price": 129.99,
+                "image": "https://i.ibb.co/6cP3QBrg/simon-daoudi-2w-Foa040m8g-unsplash.jpg",
+                "description": "Stay connected and track your fitness with the Smartwatch X200. Waterproof and packed with features.",
+                "category": "electronics",
+                "details": "Heart rate monitor, GPS, sleep tracking, waterproof up to 50m, customizable watch faces, compatible with iOS/Android.",
+                "rating": 4.2
+            },
+            {
+                "id": 23,
+                "name": "Vintage Denim Jacket",
+                "price": 75.00,
+                "image": "https://i.ibb.co/tMMqvzQ8/pexels-tamar-willoughby-346256-951888-1.jpg",
+                "description": "A classic denim jacket with a timeless design. Perfect for any casual outfit.",
+                "category": "apparel",
+                "details": "100% cotton, distressed look, button closure, multiple pockets, unisex design, available in various sizes.",
+                "rating": 4.7
+            },
+            {
+                "id": 24,
+                "name": "Ergonomic Office Chair",
+                "price": 199.99,
+                "image": "https://i.ibb.co/ZzKXspPQ/pexels-fotios-photos-1957478-1.jpg",
+                "description": "Boost your productivity with this ergonomic office chair designed for maximum comfort and support.",
+                "category": "home",
+                "details": "Adjustable lumbar support, breathable mesh back, padded armrests, smooth-rolling casters, 360-degree swivel.",
+                "rating": 4.8
+            },
+            {
+                "id": 25,
+                "name": "Science Fiction Novel",
+                "price": 15.50,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "An enthralling journey through a dystopian future. A must-read for sci-fi enthusiasts.",
+                "category": "books",
+                "details": "Paperback, 320 pages, award-winning author, part of a series, thought-provoking themes.",
+                "rating": 4.6
+            },
+            {
+                "id": 26,
+                "name": "Portable Bluetooth Speaker",
+                "price": 45.00,
+                "image": "https://i.ibb.co/Xq3FH7X/retro-microphone-isolated-color-background-1.jpg",
+                "description": "Compact and powerful, this speaker delivers crystal-clear audio wherever you go.",
+                "category": "electronics",
+                "details": "IPX7 waterproof, 10-hour playtime, built-in microphone for calls, stereo pairing, USB-C charging.",
+                "rating": 4.3
+            },
+            {
+                "id": 27,
+                "name": "Classic Leather Wallet",
+                "price": 35.00,
+                "image": "https://i.ibb.co/6J4nDkPs/30-1.webp",
+                "description": "Handcrafted from genuine leather, this wallet combines style and durability.",
+                "category": "apparel",
+                "details": "Genuine leather, multiple card slots, bill compartment, coin pocket, slim design, RFID blocking.",
+                "rating": 4.5
+            },
+            {
+                "id": 28,
+                "name": "Cookbook: Italian Delights",
+                "price": 22.00,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "Discover authentic Italian recipes passed down through generations.",
+                "category": "books",
+                "details": "Hardcover, 250 pages, over 100 recipes, full-color photos, beginner-friendly, includes vegetarian options.",
+                "rating": 4.9
+            },
+            {
+                "id": 29,
+                "name": "Yoga Mat Pro",
+                "price": 30.00,
+                "image": "https://i.ibb.co/HTb0PJZb/yoga.webp",
+                "description": "Premium non-slip yoga mat for all your fitness needs.",
+                "category": "home",
+                "details": "Eco-friendly TPE material, 6mm thickness, non-slip surface, lightweight, includes carrying strap, easy to clean.",
+                "rating": 4.4
+            },
+            {
+                "id": 30,
+                "name": "Gaming Mouse RGB",
+                "price": 49.99,
+                "image": "https://i.ibb.co/pjQp8tdH/homescreenify-l-MLWtt-URtz0-unsplash-1.jpg",
+                "description": "Precision gaming mouse with customizable RGB lighting and programmable buttons.",
+                "category": "electronics",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.7
+            },
+            {
+                "id": 31,
+                "name": "Wireless Headphones",
+                "price": 595.99,
+                "image": "https://i.ibb.co/97jxhQT/akhil-yerabati-Q2u-V5-Tkj-Nz8-unsplash-1.jpg",
+                "description": "Experience immersive sound with these comfortable wireless headphones. Featuring noise cancellation and long-lasting battery life.",
+                "category": "electronics",
+                "details": "Bluetooth 5.0, 20-hour battery, Active Noise Cancellation, foldable design, comes with a carrying case.",
+                "rating": 4.5
+            },
+            {
+                "id": 32,
+                "name": "Smartwatch X200",
+                "price": 2129.99,
+                "image": "https://i.ibb.co/6cP3QBrg/simon-daoudi-2w-Foa040m8g-unsplash.jpg",
+                "description": "Stay connected and track your fitness with the Smartwatch X200. Waterproof and packed with features.",
+                "category": "electronics",
+                "details": "Heart rate monitor, GPS, sleep tracking, waterproof up to 50m, customizable watch faces, compatible with iOS/Android.",
+                "rating": 4.2
+            },
+            {
+                "id": 33,
+                "name": "Vintage Denim Jacket",
+                "price": 3275.00,
+                "image": "https://i.ibb.co/tMMqvzQ8/pexels-tamar-willoughby-346256-951888-1.jpg",
+                "description": "A classic denim jacket with a timeless design. Perfect for any casual outfit.",
+                "category": "apparel",
+                "details": "100% cotton, distressed look, button closure, multiple pockets, unisex design, available in various sizes.",
+                "rating": 4.7
+            },
+            {
+                "id": 34,
+                "name": "Ergonomic Office Chair",
+                "price": 1299.99,
+                "image": "https://i.ibb.co/ZzKXspPQ/pexels-fotios-photos-1957478-1.jpg",
+                "description": "Boost your productivity with this ergonomic office chair designed for maximum comfort and support.",
+                "category": "home",
+                "details": "Adjustable lumbar support, breathable mesh back, padded armrests, smooth-rolling casters, 360-degree swivel.",
+                "rating": 4.8
+            },
+            {
+                "id": 35,
+                "name": "Science Fiction Novel",
+                "price": 1215.50,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "An enthralling journey through a dystopian future. A must-read for sci-fi enthusiasts.",
+                "category": "books",
+                "details": "Paperback, 320 pages, award-winning author, part of a series, thought-provoking themes.",
+                "rating": 4.6
+            },
+            {
+                "id": 36,
+                "name": "Portable Bluetooth Speaker",
+                "price": 2345.00,
+                "image": "https://i.ibb.co/Xq3FH7X/retro-microphone-isolated-color-background-1.jpg",
+                "description": "Compact and powerful, this speaker delivers crystal-clear audio wherever you go.",
+                "category": "electronics",
+                "details": "IPX7 waterproof, 10-hour playtime, built-in microphone for calls, stereo pairing, USB-C charging.",
+                "rating": 4.3
+            },
+            {
+                "id": 37,
+                "name": "Classic Leather Wallet",
+                "price": 826.00,
+                "image": "https://i.ibb.co/6J4nDkPs/30-1.webp",
+                "description": "Handcrafted from genuine leather, this wallet combines style and durability.",
+                "category": "apparel",
+                "details": "Genuine leather, multiple card slots, bill compartment, coin pocket, slim design, RFID blocking.",
+                "rating": 4.5
+            },
+            {
+                "id": 38,
+                "name": "Cookbook: Italian Delights",
+                "price": 350.99,
+                "image": "https://i.ibb.co/jkGTvPSK/stack-multicolored-books-table-1.jpg",
+                "description": "Discover authentic Italian recipes passed down through generations.",
+                "category": "books",
+                "details": "Hardcover, 250 pages, over 100 recipes, full-color photos, beginner-friendly, includes vegetarian options.",
+                "rating": 4.9
+            },
+            {
+                "id": 39,
+                "name": "Yoga Mat Pro",
+                "price": 1249.99,
+                "image": "https://i.ibb.co/HTb0PJZb/yoga.webp",
+                "description": "Premium non-slip yoga mat for all your fitness needs.",
+                "category": "home",
+                "details": "Eco-friendly TPE material, 6mm thickness, non-slip surface, lightweight, includes carrying strap, easy to clean.",
+                "rating": 4.4
+            },
+            {
+                "id": 40,
+                "name": "Gaming Mouse RGB",
+                "price": 650.99,
+                "image": "https://i.ibb.co/pjQp8tdH/homescreenify-l-MLWtt-URtz0-unsplash-1.jpg",
+                "description": "Precision gaming mouse with customizable RGB lighting and programmable buttons.",
+                "category": "electronics",
+                "details": "16000 DPI sensor, 7 programmable buttons, RGB lighting, ergonomic design, braided cable, compatible with PC/Mac.",
+                "rating": 4.7
+            }
+
+        ]
