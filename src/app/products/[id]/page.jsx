@@ -74,7 +74,7 @@ const ProductDetails = async ({ params }) => {
         {/* Short Description */}
         <p className="text-gray-600 mb-6">{description}</p>
 
-        {/* <CartButton product={product}></CartButton> */}
+        <CartButton product={product}></CartButton>
       </div>
 
       {/* Full Details Section */}
