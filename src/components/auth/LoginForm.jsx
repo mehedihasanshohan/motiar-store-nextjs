@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { SocialButtons } from "./SocialButton";
-// import { signIn } from "next-auth/react";
+import { signIn } from "next-auth/react";
 import Swal from "sweetalert2";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";

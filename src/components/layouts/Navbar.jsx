@@ -3,6 +3,7 @@ import Image from "next/image";
 import NavLink from "../buttons/NavLink";
 import Link from "next/link";
 import { FaCartShopping } from "react-icons/fa6";
+import AuthButtons from "../buttons/AuthButtons";
 
 const Navbar = () => {
   const nav = (
@@ -67,9 +68,10 @@ const Navbar = () => {
             <Image src="/assets/trolley.png" height={30} width={30} alt="logo" />
           </Link>
           {/* <Image src={user?.photoURL} className="w-10 h-10 rounded-full mr-2" alt="" /> */}
-          <NavLink className="btn btn-primary" href="/rider">
+          {/* <NavLink className="btn btn-primary" href="/rider">
             Be a Rider
-          </NavLink>
+          </NavLink> */}
+          <AuthButtons></AuthButtons>
         </div>
       </div>
     </>

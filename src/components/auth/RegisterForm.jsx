@@ -2,9 +2,9 @@
 import Link from "next/link";
 import { SocialButtons } from "./SocialButton";
 import { useState } from "react";
-// import { postUser } from "@/actions/server/auth";
+import { postUser } from "@/actions/server/auth";
 import { useRouter, useSearchParams } from "next/navigation";
-// import { signIn } from "next-auth/react";
+import { signIn } from "next-auth/react";
 import Swal from "sweetalert2";
 
 export const RegisterForm = () => {
