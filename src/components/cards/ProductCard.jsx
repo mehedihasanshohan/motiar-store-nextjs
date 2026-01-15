@@ -4,10 +4,11 @@ import React from 'react';
 import { FaStar, FaCartPlus } from 'react-icons/fa';
 
 const ProductCard = ({ product }) => {
-  const { id, name, price, image, description, rating, category } = product;
+  const { _id, name, price, image, description, rating, category } = product;
 
   return (
-    <div className="card bg-base-300 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 group">
+    <div className="card bg-base-300 shadow-xl border border-gray-100
+    hover:shadow-2xl transition-all duration-300 group">
       {/* Product Image Area */}
       <figure className="relative h-64 w-full overflow-hidden bg-gray-100">
         <Image
@@ -37,6 +38,12 @@ const ProductCard = ({ product }) => {
         <p className="text-gray-500 text-sm line-clamp-2 my-2">
           {description}
         </p>
+         <Link
+          href={`/products/${_id}`}
+          className="btn btn-primary btn-outline mt-4 w-full"
+        >
+          View Details
+        </Link>
 
         <div className="flex items-center justify-between mt-4">
           <div>
@@ -45,7 +52,7 @@ const ProductCard = ({ product }) => {
           </div>
 
           <div className="card-actions justify-end">
-            <Link href={`/product/${id}`} className="btn btn-primary btn-sm md:btn-md flex items-center gap-2">
+            <Link href={`/product/${_id}`} className="btn btn-primary btn-sm md:btn-md flex items-center gap-2">
               <FaCartPlus className="text-lg" />
               Buy Now
             </Link>
