@@ -5,6 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { CheckCircle, Truck, Star, ShieldCheck } from "lucide-react";
 import Image from "next/image";
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 
 export default function AboutPage() {
   useEffect(() => {
@@ -34,10 +36,22 @@ export default function AboutPage() {
     },
   ];
 
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.5,
+  });
+
+  const stats = [
+    { number: 32, label: "বছরের অভিজ্ঞতা", suffix: "+" },
+    { number: 5000, label: "সন্তুষ্ট ক্রেতা", suffix: "+" },
+    { number: 1000, label: "পণ্য তালিকা", suffix: "+" },
+    { number: 100, label: "খাঁটি মান", suffix: "%" },
+  ];
+
   return (
     <div className="bg-base-200 min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-cyan-900 text-white text-center">
+      <section className="relative py-20 bg-cyan-700/80 text-white text-center">
         <div className="container mx-auto px-6" data-aos="zoom-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">মতিয়ার স্টোর</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
@@ -55,9 +69,7 @@ export default function AboutPage() {
             height={400}
             width={600}
             className="object-cover rounded-md"
-            // fill
             alt="Motiar Store Interior"
-            // className="rounded-2xl shadow-2xl border-4 border-red-100"
           />
         </div>
         <div className="space-y-6" data-aos="fade-left">
@@ -100,27 +112,29 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 container mx-auto px-6 text-center">
+
+      <section ref={ref} className="py-16 container mx-auto px-6 text-center">
         <div
           className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-cyan-700 text-white p-10 rounded-3xl"
           data-aos="flip-up"
         >
-          <div>
-            <h2 className="text-4xl font-bold">৩২+</h2>
-            <p className="opacity-80">বছরের অভিজ্ঞতা</p>
-          </div>
-          <div>
-            <h2 className="text-4xl font-bold">৫০০০+</h2>
-            <p className="opacity-80">সন্তুষ্ট ক্রেতা</p>
-          </div>
-          <div>
-            <h2 className="text-4xl font-bold">১০০০+</h2>
-            <p className="opacity-80">পণ্য তালিকা</p>
-          </div>
-          <div>
-            <h2 className="text-4xl font-bold">১০০%</h2>
-            <p className="opacity-80">খাঁটি মান</p>
-          </div>
+          {stats.map((stat, index) => (
+            <div key={index}>
+              <h2 className="text-4xl font-bold">
+                {inView ? (
+                  <CountUp
+                    start={0}
+                    end={stat.number}
+                    duration={3}
+                    suffix={stat.suffix}
+                  />
+                ) : (
+                  `0${stat.suffix}`
+                )}
+              </h2>
+              <p className="opacity-80">{stat.label}</p>
+            </div>
+          ))}
         </div>
       </section>
     </div>

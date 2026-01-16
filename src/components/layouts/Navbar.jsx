@@ -15,9 +15,6 @@ const Navbar = () => {
         <NavLink href="/products">Products</NavLink>
       </li>
       <li>
-        <NavLink href="/orders">My Ordes</NavLink>
-      </li>
-      <li>
         <NavLink href="/contacts">Contacts</NavLink>
       </li>
       <li>
@@ -56,10 +53,10 @@ const Navbar = () => {
             </ul>
           </div>
           <Image src="/assets/store.png" height={30} width={30} alt="logo" />
-          <a className="text-amber-500 ml-4 font-bold text-xl">Motiar Store</a>
+          <a className="text-cyan-700 ml-4 font-bold text-xl">মতিয়ার স্টোর</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="text-xl text-teal-600 flex justify-center items-center gap-6 font-semibold px-1">
+          <ul className="text-xl text-cyan-700 flex justify-center items-center gap-6 font-semibold px-1">
             {nav}
           </ul>
         </div>

@@ -1,5 +1,10 @@
 import Banner from "@/components/home/Banner";
+import DiscountProducts from "@/components/home/DiscountProducts";
+import FAQ from "@/components/home/FAQ";
+import FeaturesSection from "@/components/home/FeaturesSection";
+import MarqueeSection from "@/components/home/MarqueeSection";
 import Products from "@/components/home/Products";
+import Testimonials from "@/components/home/Testimonials";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,12 +15,30 @@ export default function Home() {
     </section>
 
     <section>
-      
+      <DiscountProducts></DiscountProducts>
     </section>
 
     <section>
       <Products></Products>
     </section>
+
+    <section>
+      <MarqueeSection></MarqueeSection>
+    </section>
+
+    <section>
+      <Testimonials></Testimonials>
+    </section>
+
+    <section>
+      <FeaturesSection></FeaturesSection>
+    </section>
+
+    <section>
+      <FAQ></FAQ>
+    </section>
+
+
 
 
    </div>
