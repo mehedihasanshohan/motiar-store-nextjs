@@ -9,7 +9,7 @@ const Products = async() => {
 
   return (
     <div>
-      <h2 className='text-center font-bold text-4xl mb-4'>Our Products</h2>
+      <h2 className='text-center font-semibold text-3xl mb-4'>Our Products</h2>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-6 gap-5'>
         {
           products.map(product => (

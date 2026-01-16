@@ -8,9 +8,16 @@ export default function Home() {
     <section>
       <Banner></Banner>
     </section>
+
+    <section>
+      
+    </section>
+
     <section>
       <Products></Products>
     </section>
+
+
    </div>
   );
 }

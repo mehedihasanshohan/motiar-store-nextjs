@@ -7,15 +7,15 @@ const ProductCard = ({ product }) => {
   const { _id, name, price, image, description, rating, category } = product;
 
   return (
-    <div className="card bg-base-300 shadow-xl border border-gray-100
-    hover:shadow-2xl transition-all duration-300 group">
+    <div className="card bg-base-100 shadow-sm border border-base-100
+    hover:shadow-md transition-all duration-300 group">
       {/* Product Image Area */}
-      <figure className="relative h-64 w-full overflow-hidden bg-gray-100">
+      <figure className="relative h-64 w-full overflow-hidden p-4">
         <Image
           src={image}
           alt={name}
           fill
-          className="object-cover group-hover:scale-110 transition-transform duration-500"
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
         {/* Category Badge */}
         <div className="absolute top-2 right-2 badge badge-secondary font-semibold uppercase text-[10px]">
@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
       </figure>
 
       {/* Card Body */}
-      <div className="card-body p-5">
+      <div className="card-body p-4">
         <div className="flex justify-between items-start">
           <h2 className="card-title text-lg font-bold text-gray-800 leading-tight">
             {name}
@@ -47,8 +47,7 @@ const ProductCard = ({ product }) => {
 
         <div className="flex items-center justify-between mt-4">
           <div>
-            <span className="text-2xl font-extrabold text-primary">৳{price}</span>
-            <span className="block text-[10px] text-gray-400 uppercase tracking-widest font-bold">Price</span>
+            <span className="text-2xl font-extrabold text-primary">৳ {price}</span>
           </div>
 
           <div className="card-actions justify-end">
