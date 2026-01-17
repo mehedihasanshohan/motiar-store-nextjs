@@ -1,8 +1,10 @@
 "use server";
 
 import { authOptions } from "@/lib/authOptions";
+// import { authOptions } from "@/lib/authOptions";
 import { ObjectId } from "mongodb";
 import { getServerSession } from "next-auth";
+// import { getServerSession } from "next-auth";
 import { revalidatePath } from "next/cache";
 import { cache } from "react";
 
@@ -38,17 +40,20 @@ export const handleCart = async (productId) => {
     const newData = {
       productId: product?._id,
       email: user?.email,
-      title: product.title,
-      quantity: 1,
+      name: product.name,
+      price: product.price,
       image: product.image,
-      price: product.price - (product.price * product.discount) / 100,
+      quantity: 1,
       username: user?.name,
+      category: product.category,
     };
 
     const result = await cartCollection.insertOne(newData);
     return { success: result.acknowledged };
   }
 };
+
+
 
 export const getCart = cache(async () => {
   const { user } = (await getServerSession(authOptions)) || {};
@@ -61,6 +66,10 @@ export const getCart = cache(async () => {
 
   return result;
 });
+
+
+
+
 
 export const deleteItemsFromCart = async (id) => {
   const { user } = (await getServerSession(authOptions)) || {};
