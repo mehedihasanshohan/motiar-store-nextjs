@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaStar, FaEye } from 'react-icons/fa';
+import CartButton from '../buttons/CartButton';
 
 const ProductCard = ({ product }) => {
   const { _id, name, price, image, description, rating, category } = product;
@@ -53,6 +54,7 @@ const ProductCard = ({ product }) => {
            বিস্তারিত
           </Link>
         </div>
+        <CartButton product={{ ...product, _id: _id.toString() }}></CartButton>
       </div>
     </div>
   );
