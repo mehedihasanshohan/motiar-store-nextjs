@@ -37,7 +37,7 @@ export const RegisterForm = () => {
         router.push(callbackUrl);
       }
     } else {
-      Swal.fire("erro", "Sorry", "error");
+      Swal.fire("error", "Sorry", "error");
     }
   };
 
