@@ -58,7 +58,7 @@ export const handleCart = async (productId) => {
 export const getCart = cache(async () => {
   const { user } = (await getServerSession(authOptions)) || {};
   if (!user) return [];
-  console.log("get cart called");
+  // console.log("get cart called");
 
   const query = { email: user?.email };
 
@@ -66,8 +66,6 @@ export const getCart = cache(async () => {
 
   return result;
 });
-
-
 
 
 

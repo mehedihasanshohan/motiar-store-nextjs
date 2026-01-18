@@ -57,10 +57,10 @@ const Cart = ({ cartItem = [] }) => {
                 <div>
                   <p className="font-medium">{item.title}</p>
                   <p className="text-xs text-gray-500">
-                    Qty: {item.quantity} × ৳{item.price}
+                    Qty: {item.quantity} × ৳ {item.price}
                   </p>
                 </div>
-                <p className="font-semibold">৳{item.price * item.quantity}</p>
+                <p className="font-semibold">৳ {item.price * item.quantity}</p>
               </div>
             ))}
           </div>
@@ -74,13 +74,13 @@ const Cart = ({ cartItem = [] }) => {
             </div>
             <div className="flex justify-between font-bold text-lg">
               <span>Total Price</span>
-              <span>৳{totalPrice}</span>
+              <span>৳ {totalPrice}</span>
             </div>
           </div>
 
           <Link
             href={"/checkout"}
-            className="btn btn-primary w-full mt-4"
+            className="btn bg-cyan-700 text-white w-full mt-4"
             disabled={!items.length}
           >
             Confirm Order
