@@ -58,7 +58,7 @@ const CheckOut = ({ cartItems = [] }) => {
   }
 
   return (
-    <div className="flex relative gap-10 py-20 flex-col-reverse  md:flex-row ">
+    <div className="flex relative gap-10 py-12 px-6 flex-col-reverse  md:flex-row ">
       <div
         className={` ${
           loading ? " flex opacity-80 inset-0 absolute" : "hidden"
@@ -68,14 +68,14 @@ const CheckOut = ({ cartItems = [] }) => {
           size={50}
           className="animate-spin text-primary font-bold"
         />
-        <h2 className={`text-xl font-bold animate-pulse`}>
+        <h2 className={`text-xl text-center font-bold animate-pulse`}>
           {" "}
           Processing CheckOut{" "}
         </h2>
       </div>
       {/* LEFT: FORM */}
       <div className="flex-2">
-        <h2 className="text-2xl font-bold my-4">Delivery Information</h2>
+        <h2 className="text-2xl text-center font-semibold my-4">Delivery Information</h2>
         <form
           className="space-y-4 bg-base-100 p-6 shadow-md rounded-lg"
           onSubmit={handleSubmit}
@@ -143,7 +143,7 @@ const CheckOut = ({ cartItems = [] }) => {
           <button
             disabled={cartItems.length == 0 || loading}
             type="submit"
-            className="btn btn-primary w-full mt-4"
+            className="btn bg-cyan-700 text-white w-full mt-4"
           >
             Check Out with Cash on Delivery
           </button>
@@ -152,7 +152,7 @@ const CheckOut = ({ cartItems = [] }) => {
 
       {/* RIGHT: ITEMS SUMMARY */}
       <div className="flex-1 ">
-        <h2 className="text-2xl font-bold mb-4">Order Summary</h2>
+        <h2 className="text-2xl font-semibold mb-4">Order Summary</h2>
         <div className="bg-base-100 p-4 shadow-md rounded-lg space-y-2 sticky top-4">
           {cartItems.map((item) => (
             <div key={item._id} className="flex justify-between border-b pb-1">
@@ -168,7 +168,7 @@ const CheckOut = ({ cartItems = [] }) => {
 
           <div className="divider"></div>
 
-          <div className="flex justify-between font-bold text-lg">
+          <div className="flex justify-between font-semibold text-lg">
             <span>Total ({totalItems} items)</span>
             <span>৳{totalPrice}</span>
           </div>

@@ -10,7 +10,7 @@ const Products = async() => {
   return (
     <div className="py-12 bg-base-200">
       <div className="max-w-400 mx-auto">
-        <h2 className='text-center font-bold text-gray-800 text-4xl mb-10'>
+        <h2 className="text-center font-bold text-cyan-800 mb-10 text-3xl">
           আমাদের পণ্যসমূহ
         </h2>
 

@@ -30,8 +30,8 @@ export default function FAQ() {
       <div className="max-w-3xl mx-auto">
         <div className="flex flex-col items-center mb-10" data-aos="fade-down">
            <HelpCircle className="text-cyan-700 mb-2" size={40} />
-           <h2 className="text-3xl font-bold text-cyan-900 text-center uppercase tracking-wide">প্রয়োজনীয় তথ্য (FAQ)</h2>
-           <div className="h-1 w-20 bg-cyan-600 mt-2 rounded-full"></div>
+           <h2 className="text-center font-bold text-cyan-800 mb-10 text-3xl">প্রয়োজনীয় তথ্য (FAQ)</h2>
+           <div className="h-1 w-20 bg-cyan-700 mt-2 rounded-full"></div>
         </div>
 
         <div className="space-y-4">

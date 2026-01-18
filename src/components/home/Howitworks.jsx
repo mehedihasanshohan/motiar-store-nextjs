@@ -45,7 +45,7 @@ export default function Howitworks() {
   return (
     <section className="py-20 bg-[#FFF5F5]">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-center text-4xl font-black text-gray-800 mb-16">
+        <h2 className="text-center font-bold text-cyan-800 mb-10 text-3xl">
           কিভাবে অর্ডার করবেন?
         </h2>
 

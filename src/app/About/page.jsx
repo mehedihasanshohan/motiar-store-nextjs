@@ -51,10 +51,10 @@ export default function AboutPage() {
   return (
     <div className="bg-base-200 min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-cyan-700/80 text-white text-center">
+      <section className="relative py-12 text-base-200 text-center">
         <div className="container mx-auto px-6" data-aos="zoom-in">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">মতিয়ার স্টোর</h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
+          <h1 className="text-center font-bold text-cyan-800 mb-10 text-3xl">মতিয়ার স্টোর</h1>
+          <p className="text-lg md:text-xl max-w-2xl text-cyan-700/80 mx-auto">
             ১৯৯০ সাল থেকে আপনার আস্থার প্রতীক। আমরা শুধু পণ্য নয়, বিশ্বাস পৌঁছে
             দিই আপনার ঘরে।
           </p>

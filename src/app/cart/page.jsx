@@ -25,14 +25,14 @@ const CartPage = async () => {
       {cartItems.length == 0 ? (
         <>
           <div className="text-center py-20 space-y-5">
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-center font-bold text-cyan-800 mb-10 text-3xl">
               আপনি কার্টে কোন প্রোডাক্ট এড করেন নি
             </h2>
             <Link
               href={"/products"}
-              className="btn btn-primary btn-lg btn-wide"
+              className="btn bg-cyan-700 text-white btn-lg btn-wide"
             >
-              <TbHorseToy></TbHorseToy> পন্য দেখুন
+              পন্য দেখুন
             </Link>
           </div>
         </>

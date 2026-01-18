@@ -45,7 +45,7 @@ export default function Contact() {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <h2>Find US</h2>
+        <h2 className="text-center font-semibold text-cyan-800 mb-10 text-3xl">Find US</h2>
         <div className="mt-4">
           <iframe
             title="Google Map"
@@ -63,7 +63,7 @@ export default function Contact() {
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <h2>Send Us Message</h2>
+        <h2 className="text-center font-semibold text-cyan-800 mb-10 text-3xl">Send Us Message</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           {/* Name Field */}
           <div className="relative">

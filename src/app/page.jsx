@@ -19,8 +19,6 @@ export default async function Home() {
       <Banner></Banner>
     </section>
 
-{/* <Howitworks></Howitworks> */}
-
     <section>
       <DiscountProducts></DiscountProducts>
     </section>

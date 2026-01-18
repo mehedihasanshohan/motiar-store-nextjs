@@ -11,7 +11,7 @@ export default function Testimonials() {
   return (
     <section className="py-16 bg-base-200">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center text-cyan-700 mb-12">ক্রেতারা যা বলছেন</h2>
+        <h2 className="text-center font-bold text-cyan-800 mb-10 text-3xl">ক্রেতারা যা বলছেন</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {reviews.map((item, index) => (
             <div key={index} className="p-8 rounded-md bg-base-100 relative shadow-sm hover:shadow-md transition">

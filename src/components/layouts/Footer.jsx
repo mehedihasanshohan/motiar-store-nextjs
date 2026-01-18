@@ -27,34 +27,32 @@ export const Footer = () => {
           <h3 className="font-bold text-gray-800 uppercase text-xs tracking-[2px] mb-2">প্রয়োজনীয় লিঙ্ক</h3>
           <Link href="/products" className="text-gray-500 hover:text-cyan-700 text-sm transition-colors font-medium">সব পণ্য</Link>
           <Link href="/about" className="text-gray-500 hover:text-cyan-700 text-sm transition-colors font-medium">আমাদের সম্পর্কে</Link>
-          <Link href="/contact" className="text-gray-500 hover:text-cyan-700 text-sm transition-colors font-medium">যোগাযোগ</Link>
-          <Link href="/privacy" className="text-gray-500 hover:text-cyan-700 text-sm transition-colors font-medium">প্রাইভেসি পলিসি</Link>
+          <Link href="/contacts" className="text-gray-500 hover:text-cyan-700 text-sm transition-colors font-medium">যোগাযোগ</Link>
         </div>
 
-        {/* কলাম ৩: সোশ্যাল মিডিয়া ও কানেক্ট */}
         <div className="flex flex-col items-center md:items-start">
           <h3 className="font-bold text-gray-800 uppercase text-xs tracking-[2px] mb-4">আমাদের সাথে যুক্ত থাকুন</h3>
           <div className="flex gap-4">
-            <a href="https://facebook.com" target="_blank" className="p-2.5 bg-gray-50 rounded-full text-gray-400 hover:bg-cyan-700 hover:text-white transition-all shadow-sm">
+            <a href="https://facebook.com" target="_blank" className="p-2.5 rounded-full text-white bg-cyan-700 hover:text-white transition-all shadow-sm">
               <Facebook size={18} />
             </a>
-            <a href="https://linkedin.com" target="_blank" className="p-2.5 bg-gray-50 rounded-full text-gray-400 hover:bg-cyan-700 hover:text-white transition-all shadow-sm">
+            <a href="https://linkedin.com" target="_blank" className="p-2.5 rounded-full text-white bg-cyan-700 hover:text-white transition-all shadow-sm">
               <Linkedin size={18} />
             </a>
-            <a href="mailto:info@motiarstore.com" className="p-2.5 bg-gray-50 rounded-full text-gray-400 hover:bg-cyan-700 hover:text-white transition-all shadow-sm">
+            <a href="mailto:info@motiarstore.com" className="p-2.5 rounded-full text-white bg-cyan-700 hover:text-white transition-all shadow-sm">
               <Mail size={18} />
             </a>
           </div>
-          <p className="mt-4 text-[11px] text-gray-400 italic">সকাল ৮টা - রাত ১০টা পর্যন্ত খোলা</p>
+          <p className="mt-4 text-[11px] text-gray-600 italic">সকাল ৮টা - রাত ১০টা পর্যন্ত খোলা</p>
         </div>
       </div>
 
       {/* কপিরাইট অংশ */}
       <div className="mt-16 pt-8 border-t border-gray-50 text-center flex flex-col items-center gap-2">
-        <p className="text-gray-400 text-xs">
-          © {new Date().getFullYear()} <span className="font-bold text-cyan-800">Motiar Store</span>. All rights reserved.
+        <p className="text-gray-600 text-xs">
+          © {new Date().getFullYear()} <span className="font-semibold text-cyan-700">Motiar Store</span>. All rights reserved.
         </p>
-        <p className="text-[10px] text-gray-300 uppercase tracking-widest font-medium">
+        <p className="text-[10px] text-gray-600 uppercase tracking-widest font-medium">
           Fresh • Quality • Trust
         </p>
       </div>

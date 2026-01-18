@@ -3,10 +3,10 @@
 import { clearCart, getCart } from "./cart";
 import { sendEmail } from "@/lib/sendEmail";
 import { ObjectId } from "mongodb";
-// import { adminOrderNotificationTemplate } from "@/lib/AdminInvoice";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
 import { orderInvoiceTemplate } from "@/lib/orderInVoice";
+import { adminOrderNotificationTemplate } from "@/lib/AdminInVoice";
 
 const { dbConnect, collections } = require("@/lib/dbConnect");
 

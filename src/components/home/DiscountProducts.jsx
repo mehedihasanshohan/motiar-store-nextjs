@@ -67,10 +67,11 @@ export default function DiscountSection() {
           {discountProducts.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-3xl p-5 shadow-sm border border-gray-100 relative group transition-all hover:shadow-xl hover:border-cyan-200"
+              className="bg-white rounded-3xl p-5 shadow-sm border border-gray-100 relative group transition-all hover:shadow-xl hover:border-gray-200"
             >
               {/* Floating Discount Badge */}
-              <div className="absolute -top-3 -right-2 bg-rose-600 text-white text-[11px] font-black px-3 py-1 rounded-lg z-10 shadow-lg transform rotate-12 group-hover:rotate-0 transition-transform">
+              <div className="absolute -top-3 -right-2 bg-rose-600 text-white text-[11px]
+              font-black px-3 py-1 rounded-lg z-10 shadow-lg transform rotate-12 group-hover:rotate-0 transition-transform">
                 {item.off} ছাড়
               </div>
 
