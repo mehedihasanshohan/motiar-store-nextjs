@@ -3,16 +3,16 @@ import Image from "next/image";
 import React from "react";
 
 const products = [
-  { name: "চাল", img: "/assets/chal.jfif" },
-  { name: "ডাল", img: "/assets/dal.jfif" },
-  { name: "সয়াবিন তেল", img: "/assets/soyabin.jfif" },
-  { name: "আটা", img: "/assets/ata.jfif" },
-  { name: "নুডলস", img: "/assets/ndls.jfif" },
-  { name: "কেক", img: "/assets/cake2.jfif" },
-  { name: "বিস্কুট", img: "/assets/biscuit.jfif" },
-  { name: "সাবান", img: "/assets/soap.jfif" },
-  { name: "পেস্ট", img: "/assets/paste.jfif" },
-  { name: "চকলেট", img: "/assets/chocolate.jfif" },
+  { name: "চাল", img: "/assets/chal.jpg" },
+  { name: "ডাল", img: "/assets/dal.jpg" },
+  { name: "সয়াবিন তেল", img: "/assets/soyabin.jpg" },
+  { name: "আটা", img: "/assets/ata.jpg" },
+  { name: "নুডলস", img: "/assets/ndls.jpg" },
+  { name: "কেক", img: "/assets/cake2.jpg" },
+  { name: "বিস্কুট", img: "/assets/biscuit.jpg" },
+  { name: "সাবান", img: "/assets/soap.jpg" },
+  { name: "পেস্ট", img: "/assets/paste.jpg" },
+  { name: "চকলেট", img: "/assets/chocolate.jpg" },
 ];
 
 const MarqueeSection = () => {

@@ -5,8 +5,7 @@
 ---
 
 ## Live Demo
-- **Live Site:** []
-- **Express Server API:** []
+- **Live Site:** [https://motiar-store-nextjs.vercel.app/]
 
 ### Mock Login Credentials
 অ্যাসাইনমেন্ট চেক করার জন্য নিচের ক্রেডেনশিয়াল ব্যবহার করুন:
