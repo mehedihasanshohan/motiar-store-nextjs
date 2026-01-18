@@ -45,9 +45,9 @@ export const RegisterForm = () => {
     <div className="min-h-screen flex items-center justify-center bg-base-200">
       <div className="card w-full max-w-sm shadow-xl bg-base-100">
         <div className="card-body">
-          <h2 className="text-2xl font-bold text-center">Create Account</h2>
+          <h2 className="text-2xl font-semibold text-center">Create Account</h2>
 
-          <form onSubmit={handleSubmit} className="space-y-3">
+          <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
               name="name"
