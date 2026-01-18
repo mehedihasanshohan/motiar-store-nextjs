@@ -71,7 +71,7 @@ const Cartitem = ({ item, removeItem, updateQuantity }) => {
   };
 
   return (
-    <div className="flex items-center gap-4 p-4 bg-base-100  border-primary shadow rounded-xl">
+    <div className="flex items-center gap-4 py-6 px-6 bg-base-100  border-primary shadow rounded-xl">
       {/* Image */}
       <div className="w-20 h-20 relative">
         <Image

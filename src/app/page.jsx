@@ -2,7 +2,6 @@ import Banner from "@/components/home/Banner";
 import DiscountProducts from "@/components/home/DiscountProducts";
 import FAQ from "@/components/home/FAQ";
 import FeaturesSection from "@/components/home/FeaturesSection";
-import Howitworks from "@/components/home/Howitworks";
 import MarqueeSection from "@/components/home/MarqueeSection";
 import Products from "@/components/home/Products";
 import Testimonials from "@/components/home/Testimonials";

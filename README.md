@@ -22,7 +22,6 @@
 
 ## Implemented Features
 - **Mock Authentication:** ইমেইল ও পাসওয়ার্ড দিয়ে লগইন করার সুবিধা এবং সেশন কুকিতে স্টোর করা।
-- **Protected Routes:** 'Add Item' পেজটি শুধুমাত্র লগইন করা ইউজারদের জন্য সংরক্ষিত।
 - **Dynamic Product Grid:** এক্সপ্রেস সার্ভার থেকে ডাটা ফেচ করে ক্যাটাগরি অনুযায়ী পণ্য প্রদর্শন।
 - **Detailed Product View:** প্রতিটি পণ্যের জন্য ডাইনামিক রুট ব্যবহার করে আলাদা ডিটেইলস পেজ।
 - **Modern Responsive UI:** মোবাইল, ট্যাবলেট এবং ডেস্কটপ—সব ডিভাইসের জন্য ১০০% অপ্টিমাইজড।
@@ -50,7 +49,7 @@
 | :--- | :--- | :--- |
 | `/` | Home Page - ৭টি বিশেষ সেকশন সহ ল্যান্ডিং পেজ। | Public |
 | `/products` | Product List - সব পণ্যের তালিকা। | Public |
-| `/products/[id]` | Product Details - একক পণ্যের বিস্তারিত। | Public |
+| `/products/[id]` | Product Details - একক পণ্যের বিস্তারিত। | Protected |
 | `/login` | Authentication - ডেমো ক্রেডেনশিয়াল দিয়ে লগইন। | Public |
 
 ---
@@ -59,5 +58,5 @@
 
 ১. প্রজেক্টটি ক্লোন করুন:
 ```bash
-git clone [https://github.com/mehedihasanshohan/motiar-store-nextjs.git](https://github.com/mehedihasanshohan/motiar-store-nextjs.git)
+git clone [https://github.com/mehedihasanshohan/motiar-store-nextjs.git]
 cd motiar-store-nextjs

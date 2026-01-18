@@ -1,11 +1,11 @@
 import { RegisterForm } from "@/components/auth/RegisterForm";
-import React from "react";
+import React, { Suspense } from "react";
 
 const RegisterPage = () => {
   return (
-    <div>
+    <Suspense fallback={<div>Loading...</div>}>
       <RegisterForm></RegisterForm>
-    </div>
+    </Suspense>
   );
 };
 

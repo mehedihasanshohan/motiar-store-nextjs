@@ -8,7 +8,7 @@ import { getCart } from "@/actions/server/cart";
 
 const CartPage = async () => {
   const cartItems = await getCart();
-  console.log(cartItems[0]);
+  // console.log(cartItems[0]);
   const formattedItems = cartItems.map((item) => ({
     ...item,
     _id: item._id.toString(),
@@ -18,13 +18,13 @@ const CartPage = async () => {
   return (
     <div>
       <div className="">
-        <h2 className="text-4xl py-4 font-bold border-l-8 border-primary pl-8">
+        <h2 className="text-4xl py-8 text-center px-6  font-semibold">
           My Cart
         </h2>
       </div>
       {cartItems.length == 0 ? (
         <>
-          <div className="text-center py-20 space-y-5">
+          <div className="text-center py-12 space-y-6 px-6">
             <h2 className="text-center font-bold text-cyan-800 mb-10 text-3xl">
               আপনি কার্টে কোন প্রোডাক্ট এড করেন নি
             </h2>
@@ -37,14 +37,10 @@ const CartPage = async () => {
           </div>
         </>
       ) : (
-        <Cart cartItem={formattedItems}></Cart>
+        <div className="bg-base-200 pb-18 px-6">
+          <Cart cartItem={formattedItems}></Cart>
+        </div>
       )}
-      {/* {cartItems.length}
-      {
-        cartItems.map((item) => (
-          <CartItem key={item._id.toString()} item={item}></CartItem>
-        ))
-      } */}
     </div>
   );
 };

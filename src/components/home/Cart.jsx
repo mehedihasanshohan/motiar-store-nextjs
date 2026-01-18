@@ -46,7 +46,7 @@ const Cart = ({ cartItem = [] }) => {
       {/* RIGHT : SUMMARY CARD */}
       <div className="flex-1">
         <div className="card bg-base-100 shadow-xl p-4 sticky top-4">
-          <h2 className="text-xl font-bold mb-4">Order Summary</h2>
+          <h2 className="text-xl font-semibold mb-4">Order Summary</h2>
 
           <div className="space-y-2 text-sm">
             {items.map((item) => (
@@ -72,7 +72,7 @@ const Cart = ({ cartItem = [] }) => {
               <span>Total Items</span>
               <span>{totalItems}</span>
             </div>
-            <div className="flex justify-between font-bold text-lg">
+            <div className="flex justify-between font-semibold text-lg">
               <span>Total Price</span>
               <span>৳ {totalPrice}</span>
             </div>
